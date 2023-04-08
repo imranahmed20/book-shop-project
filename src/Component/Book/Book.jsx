@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Book = ({ book }) => {
     const { image, price, subtitle, title, isbn13 } = book;
-    console.log(book)
     return (
         <div className="overflow-hidden relative transition duration-200 hover:-translate-y-2 rounded shadow-lg hover:shadow-2xl">
             <figure><img className='object-cover' src={image} alt="book-cover w-full h-56 md:h-64 xl:h-80" /></figure>
